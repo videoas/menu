@@ -2,11 +2,14 @@ body,ul,li,a{
   margin:0;
   padding:0;
   text-decoration: none;
+  list-style: none;
 }
 body{
-  background-color: #34b4c3;
+  background-color: #78b1eb;
+
 }
-nav{
+  /********************************************************************/
+/*nav{
   display: table;
   width: 96%;
   margin-right: auto;
@@ -21,32 +24,32 @@ li{
   display: table-cell;
 }
 a{
-  padding-left: 74px;
-  border: 2px solid #2d9ba4;
-  padding: 38px;
+  border: 1px solid #78b1eb;
+  padding: 18px;
   display: block;
   background-color: white;
-  color:#34b4c3;
+  color:#78b1eb;
+  text-align: -webkit-center;
   }
   nav>ul>li:nth-child(12) a {
-    background-color: blue;
+    background-color: #46a1fe;
     font-size: 5px;
 
   }
   nav>ul>li:nth-child(12) a i {
-      font-size: 54px;
+      font-size: 34px;
+      color:white;
 
   }
   nav>ul>li:nth-child(12) a{
-
-      padding: 25px;
+     padding: 2em;
      position: relative;
-     top:15px;
+     top:-21px;
 
 
   }
   nav>ul>li:nth-child(12){
-display: none;
+   display: none;
   }
   @media screen and (max-width:1480px) {
     nav>ul>li:nth-child(10),nav>ul>li:nth-child(11){
@@ -56,25 +59,143 @@ display: none;
       nav>ul>li:nth-child(12){
     display:table-cell;
       }
+      nav>ul>li:nth-child(12)>a>div:nth-child(1){
+    width: 30px;
+    height: 30px;
+    border-radius: 30px;
+    border: 4px solid white;
+    position: absolute;
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    line-height: 32px;
+    top: 11px;
+    right: 67px;
+    background-color: #46a1fe;
+
+      }
     }
+
 
     @media screen and (max-width:1100px) {
-    nav>ul>li:nth-child(5),nav>ul>li:nth-child(9){
+    nav>ul>li:nth-child(8),nav>ul>li:nth-child(9){
       display: none;
     }
+    nav>ul>li:nth-child(12){
+  display:table-cell;
+    }
+    nav>ul>li:nth-child(12)>a>div:nth-child(2){
+      width: 30px;
+      height: 30px;
+      border-radius: 30px;
+      border: 4px solid white;
+      position: absolute;
+      color: white;
+      font-size: 20px;
+      text-align: center;
+      line-height: 32px;
+      top: 11px;
+      right: 71px;
+      background-color: #46a1fe;
+    }
+    nav>ul>li:nth-child(12) a{
+       padding: 3em;
+       position: relative;
+       top:7px;
+
+
+    }
+    nav>ul>li:nth-child(12)>a>div:nth-child(1){
+    display: none;
+    }
+  }*/
+
+nav{
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 20px;
+  margin-left: 20px;
+  width: 1400px;
+ }
+nav ul li,nav ul li {
+   display: inline-block;
+   vertical-align: middle;
+  }
+nav ul li,nav ul li {
+  padding: 10vh 2.7vw 8vh 2.6vw;
+  background-color: white;
+  color:#46a1fe;
+  }
+  nav ul li,nav ul li a {
+    color:#46a1fe;
+    }
+
+ nav>ul>li:nth-child(12){
+    display: none;
+   }
+@media screen and (max-width:1300px) {
+nav>ul>li:nth-child(10),nav>ul>li:nth-child(11){
+  display: none;
+  }
+nav>ul>li:nth-child(12){
+  display: inline-block;
+    padding: 10px 14px 10px 11px;
+    background-color: #46a1fe;
   }
 
+    nav>ul>li:nth-child(12) a i {
+        font-size: 34px;
+        color: white;
 
-  nav>ul>li:nth-child(12)>a>div:nth-child(1){
-    width:50px;
-    height: 50px;
-    border-radius: 50px ;
-    border: 2px solid red;
-    position: absolute;
-    color:yellow;
-    font-size: 30px;
-    text-align: center;
-    line-height: 50px;
+    }
+
+nav>ul>li:nth-child(12)>a>div:nth-child(1){
+  width: 30px;
+  height: 30px;
+  border-radius: 30px;
+  border: 4px solid white;
+  position: absolute;
+  color: white;
+  font-size: 20px;
+  text-align: center;
+  line-height: 32px;
+  right: 220px;
+  background-color: #46a1fe;
+      }
+nav>ul>li:nth-child(12)>a>div:nth-child(2){
+  display: none;      }
+}
 
 
+@media screen and (max-width:1000px) {
+nav>ul>li:nth-child(8),nav>ul>li:nth-child(9){
+  display: none;
   }
+nav>ul>li:nth-child(12){
+  display: inline-block;
+    padding: 10px 14px 10px 11px;
+    background-color: #46a1fe;
+  }
+
+    nav>ul>li:nth-child(12) a i {
+        font-size: 34px;
+        color: white;
+
+    }
+
+nav>ul>li:nth-child(12)>a>div:nth-child(2){
+  width: 30px;
+  height: 30px;
+  border-radius: 30px;
+  border: 4px solid white;
+  position: absolute;
+  color: white;
+  font-size: 20px;
+  text-align: center;
+  line-height: 32px;
+  right: 220px;
+  background-color: #46a1fe;
+      }
+nav>ul>li:nth-child(12)>a>div:nth-child(1){
+  display: none;      }
+}
